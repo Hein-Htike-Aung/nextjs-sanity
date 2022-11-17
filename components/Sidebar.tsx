@@ -36,13 +36,13 @@ const Sidebar = () => {
               </div>
             </Link>
           </div>
-          {!userProfile && (
+          {/* {!userProfile && (
             <div className="px-2 py-4 hidden xl:block">
               <p className="text-gray-400">
                 Log in to like and comment on videos
               </p>
               <div className="pr-4">
-                {/* <GoogleLogin
+                <GoogleLogin
                   clientId=""
                   render={(renderProps) => (
                     <button
@@ -56,10 +56,10 @@ const Sidebar = () => {
                   onSuccess={() => {}}
                   onFailure={() => {}}
                   cookiePolicy="single_host_origin"
-                /> */}
+                />
               </div>
             </div>
-          )}
+          )} */}
           <Discover />
           <SuggestedAccounts />
           <Footer />

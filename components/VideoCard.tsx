@@ -69,11 +69,11 @@ const VideoCard: NextPage<{
           }}
           className="rounded-3xl"
         >
-          <Link href={""}>
+          <Link href={`/detail/${post._id}`}>
             <video
               loop
               ref={videoRef}
-              className="lg:w[600px] h-[300px] md:h-[400] lg:h-[530px] w-[200px] cursor-pointer bg-gray-100"
+              className="lg:w-[600px] h-[300px] md:h-[400] lg:h-[530px] w-[200px] cursor-pointer bg-gray-100"
               src={post.video.asset.url}
             ></video>
           </Link>
